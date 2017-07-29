@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE84A3EB1F2C2316003318E8 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1063E721F2C0132001EF07E /* NewView.swift */; };
+		EE84A3EC1F2C2319003318E8 /* CustomAnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1063E741F2C014C001EF07E /* CustomAnimationPresenter.swift */; };
+		EE84A3ED1F2C231A003318E8 /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1063E731F2C0146001EF07E /* CustomAnimationDismisser.swift */; };
+		EE84A3EF1F2C2353003318E8 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE84A3EE1F2C2353003318E8 /* NavigationController.swift */; };
 		F1DB182F1F2BFC4B0002744D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB182E1F2BFC4B0002744D /* AppDelegate.swift */; };
 		F1DB18311F2BFC4B0002744D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB18301F2BFC4B0002744D /* ViewController.swift */; };
 		F1DB18361F2BFC4B0002744D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DB18351F2BFC4B0002744D /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE84A3EE1F2C2353003318E8 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		F1063E721F2C0132001EF07E /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 		F1063E731F2C0146001EF07E /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
 		F1063E741F2C014C001EF07E /* CustomAnimationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresenter.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 		F1DB182D1F2BFC4B0002744D /* Custom-Transition */ = {
 			isa = PBXGroup;
 			children = (
+				EE84A3EE1F2C2353003318E8 /* NavigationController.swift */,
 				F1DB182E1F2BFC4B0002744D /* AppDelegate.swift */,
 				F1DB18301F2BFC4B0002744D /* ViewController.swift */,
 				F1063E721F2C0132001EF07E /* NewView.swift */,
@@ -145,6 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE84A3EC1F2C2319003318E8 /* CustomAnimationPresenter.swift in Sources */,
+				EE84A3EF1F2C2353003318E8 /* NavigationController.swift in Sources */,
+				EE84A3EB1F2C2316003318E8 /* NewView.swift in Sources */,
+				EE84A3ED1F2C231A003318E8 /* CustomAnimationDismisser.swift in Sources */,
 				F1DB18311F2BFC4B0002744D /* ViewController.swift in Sources */,
 				F1DB182F1F2BFC4B0002744D /* AppDelegate.swift in Sources */,
 			);
@@ -272,12 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y58S2QM826;
+				DEVELOPMENT_TEAM = 729KW4R57U;
 				INFOPLIST_FILE = "Custom-Transition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greekappllc.Custom-Transition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -286,12 +297,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y58S2QM826;
+				DEVELOPMENT_TEAM = 729KW4R57U;
 				INFOPLIST_FILE = "Custom-Transition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.greekappllc.Custom-Transition";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
