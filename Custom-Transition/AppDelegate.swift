@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         // Nest RootController in NavigationController
-        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = NavigationController(rootViewController: ViewController())
         
         return true
     }
